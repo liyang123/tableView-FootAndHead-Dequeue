@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		082E1CB81C882F45008BEEB6 /* LYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 082E1CB71C882F45008BEEB6 /* LYTableViewCell.m */; };
+		082E1CBA1C882FEF008BEEB6 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 082E1CB91C882FEF008BEEB6 /* friends.plist */; };
+		082E1CC01C882FFC008BEEB6 /* LYFriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 082E1CBD1C882FFC008BEEB6 /* LYFriendsModel.m */; };
+		082E1CC11C882FFC008BEEB6 /* LYGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 082E1CBF1C882FFC008BEEB6 /* LYGroupModel.m */; };
 		0868446D1C882DB5005BD71A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0868446C1C882DB5005BD71A /* main.m */; };
 		086844701C882DB5005BD71A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0868446F1C882DB5005BD71A /* AppDelegate.m */; };
-		086844731C882DB5005BD71A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 086844721C882DB5005BD71A /* ViewController.m */; };
-		086844761C882DB5005BD71A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086844741C882DB5005BD71A /* Main.storyboard */; };
 		086844781C882DB5005BD71A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086844771C882DB5005BD71A /* Assets.xcassets */; };
 		0868447B1C882DB5005BD71A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086844791C882DB5005BD71A /* LaunchScreen.storyboard */; };
 		086844861C882DB5005BD71A /* TestDequeueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 086844851C882DB5005BD71A /* TestDequeueTests.m */; };
 		086844911C882DB5005BD71A /* TestDequeueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 086844901C882DB5005BD71A /* TestDequeueUITests.m */; };
+		086844A01C882E7E005BD71A /* LYHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0868449F1C882E7E005BD71A /* LYHeaderView.m */; };
+		086844A31C882E86005BD71A /* LYFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086844A21C882E86005BD71A /* LYFootView.m */; };
+		086844A61C882E92005BD71A /* LYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 086844A51C882E92005BD71A /* LYTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		082E1CB61C882F45008BEEB6 /* LYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTableViewCell.h; sourceTree = "<group>"; };
+		082E1CB71C882F45008BEEB6 /* LYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTableViewCell.m; sourceTree = "<group>"; };
+		082E1CB91C882FEF008BEEB6 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		082E1CBC1C882FFC008BEEB6 /* LYFriendsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFriendsModel.h; sourceTree = "<group>"; };
+		082E1CBD1C882FFC008BEEB6 /* LYFriendsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFriendsModel.m; sourceTree = "<group>"; };
+		082E1CBE1C882FFC008BEEB6 /* LYGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYGroupModel.h; sourceTree = "<group>"; };
+		082E1CBF1C882FFC008BEEB6 /* LYGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYGroupModel.m; sourceTree = "<group>"; };
 		086844681C882DB5005BD71A /* TestDequeue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDequeue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0868446C1C882DB5005BD71A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0868446E1C882DB5005BD71A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0868446F1C882DB5005BD71A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		086844711C882DB5005BD71A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		086844721C882DB5005BD71A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		086844751C882DB5005BD71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		086844771C882DB5005BD71A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0868447A1C882DB5005BD71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0868447C1C882DB5005BD71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +60,12 @@
 		0868448C1C882DB5005BD71A /* TestDequeueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDequeueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		086844901C882DB5005BD71A /* TestDequeueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDequeueUITests.m; sourceTree = "<group>"; };
 		086844921C882DB5005BD71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0868449E1C882E7E005BD71A /* LYHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHeaderView.h; sourceTree = "<group>"; };
+		0868449F1C882E7E005BD71A /* LYHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHeaderView.m; sourceTree = "<group>"; };
+		086844A11C882E86005BD71A /* LYFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFootView.h; sourceTree = "<group>"; };
+		086844A21C882E86005BD71A /* LYFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFootView.m; sourceTree = "<group>"; };
+		086844A41C882E92005BD71A /* LYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTableViewController.h; sourceTree = "<group>"; };
+		086844A51C882E92005BD71A /* LYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		082E1CBB1C882FFC008BEEB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				082E1CBC1C882FFC008BEEB6 /* LYFriendsModel.h */,
+				082E1CBD1C882FFC008BEEB6 /* LYFriendsModel.m */,
+				082E1CBE1C882FFC008BEEB6 /* LYGroupModel.h */,
+				082E1CBF1C882FFC008BEEB6 /* LYGroupModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0868445F1C882DB5005BD71A = {
 			isa = PBXGroup;
 			children = (
@@ -103,12 +129,15 @@
 			children = (
 				0868446E1C882DB5005BD71A /* AppDelegate.h */,
 				0868446F1C882DB5005BD71A /* AppDelegate.m */,
-				086844711C882DB5005BD71A /* ViewController.h */,
-				086844721C882DB5005BD71A /* ViewController.m */,
-				086844741C882DB5005BD71A /* Main.storyboard */,
-				086844771C882DB5005BD71A /* Assets.xcassets */,
-				086844791C882DB5005BD71A /* LaunchScreen.storyboard */,
-				0868447C1C882DB5005BD71A /* Info.plist */,
+				0868449E1C882E7E005BD71A /* LYHeaderView.h */,
+				0868449F1C882E7E005BD71A /* LYHeaderView.m */,
+				086844A11C882E86005BD71A /* LYFootView.h */,
+				086844A21C882E86005BD71A /* LYFootView.m */,
+				086844A41C882E92005BD71A /* LYTableViewController.h */,
+				086844A51C882E92005BD71A /* LYTableViewController.m */,
+				082E1CB61C882F45008BEEB6 /* LYTableViewCell.h */,
+				082E1CB71C882F45008BEEB6 /* LYTableViewCell.m */,
+				082E1CBB1C882FFC008BEEB6 /* Model */,
 				0868446B1C882DB5005BD71A /* Supporting Files */,
 			);
 			path = TestDequeue;
@@ -117,6 +146,10 @@
 		0868446B1C882DB5005BD71A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				082E1CB91C882FEF008BEEB6 /* friends.plist */,
+				086844771C882DB5005BD71A /* Assets.xcassets */,
+				086844791C882DB5005BD71A /* LaunchScreen.storyboard */,
+				0868447C1C882DB5005BD71A /* Info.plist */,
 				0868446C1C882DB5005BD71A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -202,6 +235,7 @@
 		086844601C882DB5005BD71A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LY;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = liyang;
 				TargetAttributes = {
@@ -245,7 +279,7 @@
 			files = (
 				0868447B1C882DB5005BD71A /* LaunchScreen.storyboard in Resources */,
 				086844781C882DB5005BD71A /* Assets.xcassets in Resources */,
-				086844761C882DB5005BD71A /* Main.storyboard in Resources */,
+				082E1CBA1C882FEF008BEEB6 /* friends.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +304,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				086844731C882DB5005BD71A /* ViewController.m in Sources */,
+				086844A01C882E7E005BD71A /* LYHeaderView.m in Sources */,
 				086844701C882DB5005BD71A /* AppDelegate.m in Sources */,
+				082E1CC01C882FFC008BEEB6 /* LYFriendsModel.m in Sources */,
+				086844A61C882E92005BD71A /* LYTableViewController.m in Sources */,
+				082E1CC11C882FFC008BEEB6 /* LYGroupModel.m in Sources */,
 				0868446D1C882DB5005BD71A /* main.m in Sources */,
+				082E1CB81C882F45008BEEB6 /* LYTableViewCell.m in Sources */,
+				086844A31C882E86005BD71A /* LYFootView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +347,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		086844741C882DB5005BD71A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				086844751C882DB5005BD71A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		086844791C882DB5005BD71A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -498,6 +529,7 @@
 				086844971C882DB5005BD71A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		086844981C882DB5005BD71A /* Build configuration list for PBXNativeTarget "TestDequeueTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +538,7 @@
 				0868449A1C882DB5005BD71A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0868449B1C882DB5005BD71A /* Build configuration list for PBXNativeTarget "TestDequeueUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +547,7 @@
 				0868449D1C882DB5005BD71A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

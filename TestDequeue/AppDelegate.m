@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LYTableViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    LYTableViewController *listVc = [[LYTableViewController alloc] init];
+    UINavigationController *listNc = [[UINavigationController alloc] initWithRootViewController:listVc];
+    self.window.rootViewController = listNc;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
